@@ -123,6 +123,9 @@ nav ul li:hover .sub-menu ul li {
     text-align: left;
     height: 4vh;
 }
+.committees :hover{
+    cursor: pointer;
+}
 
 /* nav ul li:hover .sub-menu ul li:first-child {
     padding-bottom: 1rem;
