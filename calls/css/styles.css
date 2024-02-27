@@ -34,7 +34,7 @@ nav {
     padding: 0.8% 4%;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(101, 17, 17);
+    background-color: rgb(119,31,229);
     box-shadow: 0px -0.6px 10px black;
     position: fixed;
     width: 100vw;
@@ -97,7 +97,7 @@ nav .sub-menu {
 nav ul li:hover .sub-menu {
     display: block;
     position: absolute;
-    background-color: rgb(101, 17, 17);
+    background-color: rgb(119,31,229);
     color: white;
     margin-top: 1.5rem;
     margin-left: 0rem;
@@ -257,8 +257,8 @@ h1 {
 }
 
 .hero-btn:hover {
-    border: 1px solid rgb(101, 17, 17);
-    background: rgb(101, 17, 17);
+    border: 1px solid rgb(119,31,229);
+    background: rgb(119,31,229);
     transition: 0.3s;
 }
 
@@ -889,7 +889,7 @@ p.conf:first-child {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgb(101, 17, 17);
+    background-color: rgb(119,31,229);
     border-radius: 10px;
     box-shadow: 0px 0px 10px black;
 }
@@ -1001,7 +1001,7 @@ p {
     justify-content: space-around;
     align-items: center;
     /* box-shadow: 0px 0px 10px black; */
-    /* background-color: rgb(101, 17, 17); */
+    /* background-color: rgb(119,31,229); */
     gap:3rem;
 }
 
@@ -1016,7 +1016,7 @@ p {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    border:2px solid rgb(101, 17, 17);
+    border:2px solid rgb(119,31,229);
     gap:1rem;
 }
 /* .tile img{
@@ -1048,10 +1048,10 @@ p {
 
 .speaker-info {
     padding: 12px 0px 12px 0px;
-    background: rgb(101, 17, 17);
+    background: rgb(119,31,229);
     color:white;
     border-radius:0 0 6px 6px;
-    /* border:2px solid rgb(101, 17, 17); */
+    /* border:2px solid rgb(119,31,229); */
     width:100%;
 
 }
@@ -1265,7 +1265,7 @@ h3 {
     padding: 3rem;
     width: 80%;
     box-shadow: 0px 0px 10px black;
-    background-color: rgb(101, 17, 17);
+    background-color: rgb(119,31,229);
     border-radius: 20px;
     margin: auto;
     display: flex;
@@ -1373,7 +1373,7 @@ iframe {
     margin-bottom: -5rem;
     padding: 0.8rem 0rem 2rem 0rem;
     box-shadow: 0px 0px 10px black;
-    background: rgb(101, 17, 17);
+    background: rgb(119,31,229);
     /* width: 100%; */
     /* height: 40vh; */
     justify-content: space-evenly;
