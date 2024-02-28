@@ -6,16 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="mind.ico">
-    <title>Schedule</title>
+    <title>Advisory Committee</title>
     <!-- link css -->
+<link rel="stylesheet" type="text/css" href="css/committees.css">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
-<link rel="stylesheet" type="text/css" href="css/Schedule.css">
+    <!-- <link rel="stylesheet" href="programs.css"> ONLY UNTIL THE MEMBERS ARE COMMENTED OUT -->
     <!-- link-font -->
 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&family=Poppins:ital,wght@0,300;1,100&family=Roboto+Condensed:ital@0;1&display=swap"
         rel="stylesheet">
@@ -34,7 +33,7 @@
 <body>
     <nav id="navbar">
         <!-- Link logo -->
-        <a class="logo-pic" href="index.html"><img src="/home/newImgs/4-removebg-preview.png" alt="" style="object-fit: contain;"></a>
+        <a class="logo-pic" href="index.html"><img src="newImgs/4-removebg-preview.png" style="object-fit: contain;" alt=""></a>
         <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
 
@@ -51,10 +50,11 @@
                     </div>
                 </li>
 
-                <li><a href="Schedule.html" class="active">Schedule</a></li>
+                <li><a href="Schedule.html">Schedule</a></li>
                 <li><a href="topics.html">Topics</a></li>
                 <li><a href="authors.html">Authors</a></li>
                 <li><a href="register.html">Register</a></li>
+                 
                 <li><a href="#contactandOther">Contact Us</a></li>
 
                 <!-- <li><a href="gallery.html">Gallery</a></li>
@@ -63,38 +63,50 @@
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
-    <section class="programs">
-        <h2>Programs</h2><br>
-        <h1>IMPORTANT DATES</h1>
+    <!-- <section class="programs">
+        <h1> TO BE UPDATED SOON</h1>
+      </section> -->
+    <section class="comm">
 
-        <table>
-            <tr>
-                <td>Registration Start</td>
-                <td class="darker">date</td>
-            </tr>
-            <tr>
-                <td>Registration Deadline </td>
-                <td class="darker">date</td>
-            </tr>
-            <tr>
-                <td>Paper Submission</td>
-                <td class="darker">date</td>
-            </tr>
-            <tr>
-                <td>Submission Deadline</td>
-                <td class="darker">date</td>
-            </tr>
-            <tr>
-                <td>Acceptance Notification</td>
-                <td class="darker">date</td>
-            </tr>   
-            
-            <tr>
-                <td>Conference Dates</td>
-                <td class="darker">19-20 April, 2024</td>
-            </tr>
-        </table>
+        <div class="otherflex">
+            <div class="advisory">
+                <h2>Advisory Committee</h2><br>
+                <ol class="committee-tile">
+
+
+
+
+                    <li><b>Prof. Mahesh Chandra Govil, </b> Director, NIT Sikkim</li>
+                    <li><b>Prof. Binod Kumar Kanaujia, </b> Director, NIT Jalandhar</li>
+                    <li><b>Prof. Ramana Reddy, </b> Director, NIT Kurukshetra</li>
+                    <li><b>Prof. Ashish Anand, </b> IIT Guwahati</li>
+                    <li><b>Dr. Pinaki Mitra, </b> IIT Guwahati</li>
+                    <li><b>Prof. Raghuraj Singh, </b> HBTU KANPUR</li>
+                    <li><b>Prof. Bhuvan Unhelkar, </b> University of South Florida, USA</li>
+                    <li><b>Prof. Z A Jaffery, </b> Jamia Milia Islamia, New Delhi</li>
+                    <li><b>Prof. Vivek Kumar Singh, </b> BHU</li>
+                    <li><b>Prof. Dinesh K. Vishwakarma, </b> DTU, New Delhi</li>
+                    <li><b>Prof. Brijesh Kumar, </b> Director (Planning), Dept of IT, IGDTUW</li>
+                    <li><b>Prof. Poornima Mittal, </b> Addl Director (CCE), Dept of ECE, DTU</li>
+                    <li><b>Prof. Asif Iqbal, </b> Management & Science University, Malaysia</li>
+                    <li><b>Prof. Sandeep Kumar Sengar, </b> "Cardiff Metropolitan University, Llandaff Campus,
+                        Western Ave, Cardiff, United Kingdom"</li>
+                    <li><b>Prof. Manoj Kumar, </b> "University of Wollongong in Dubai,
+                        Dubai Knowledge Park, UAE"</li>
+                    <li><b>Prof. Sangeeta K, </b> "Department of Computing and Mathematics
+                        Keele university, Keele, Newcastle, UK"</li>
+                    <li><b>Prof. Mansaf Alam, </b> Jamia Millia Islamia, New Delhi</li>
+                    <li><b>Prof. Danila Parygin, </b> Volgograd State Technical University, Russia
+                    <li><b>Balakrishna Pailla, </b> Vice President, Reliance Jio AICoE</li>
+                    <li><b>Prof. Suresh Vishwakarma, </b> "University of the West Indies, St. Augustine Campus
+                        Vancouver, British Columbia, Canada"</li>
+
+
+                </ol>
+            </div>
+        </div>
     </section>
+
     <!-- *********************footer*********************** -->
     <section class="footer" id="contactandOther">
         <div class="footer-sections" class="hundred"><a href="https://nith.ac.in" target="_blank">
@@ -121,7 +133,7 @@
         <div class="footer-sections">
             <h3 class="nit">ORGANIZER</h3>
             <div class="logo-footer">
-                <a href="#" target="_blank"><img src="/home/newImgs/social-media-chatting-online-blank-profile-picture-head-and-body-icon-people-standing-icon-grey-back.jpeg"g alt="NITH Logo"></a>
+                <a href="#" target="_blank"><img src="newImgs/social-media-chatting-online-blank-profile-picture-head-and-body-icon-people-standing-icon-grey-back.jpeg"g alt="NITH Logo"></a>
             </div>
         </div>
 

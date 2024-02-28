@@ -1394,7 +1394,7 @@ iframe {
 }
 
 
-.footer .nitt {
+.footer .snist {
     width: 80%;
     padding-top: 15px;
     padding-bottom: 3rem;
@@ -1426,7 +1426,7 @@ iframe {
 }
 
 .footer a,
-.nitt {
+.snist {
     color: #fff;
     font-size: 15px;
 }
@@ -1502,7 +1502,7 @@ body {
         margin-top: 3rem;
     }
 
-    .nitt p {
+    .snist p {
         text-align: justify;
     }
 }
