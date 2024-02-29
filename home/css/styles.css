@@ -879,7 +879,7 @@ p.conf:first-child {
     padding-bottom: 60px;
 }
 
-.about .mind-intro {
+.about .nciccn-intro {
     display: flex;
     flex-wrap: wrap;
 }
@@ -931,7 +931,7 @@ p.conf:first-child {
 
 .clocks div>span {
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 50%;
     background: rgb(119,31,229);
     display: inline-block;
     color: white;
@@ -978,15 +978,17 @@ p.date {
     text-transform: uppercase;
     margin-top: 3rem;
 }
-
+.stronger{
+    color: black;
+}
 .speakers p {
     color: white;
     padding: 0 !important;
 }
 
 p {
-    color: #777;
-    font-size: 16px;
+    color: #777777c3;
+    font-size: 20px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
